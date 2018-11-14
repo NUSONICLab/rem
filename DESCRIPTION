@@ -1,0 +1,18 @@
+Package: remsonic
+Type: Package
+Title: Relational Event Models
+Version: 0.1.0
+Date: 2018-11-13
+Authors@R:  c(
+    person("Aaron", "Schecter", email = "aschecter@uga.edu", role = c("cre","aut")),
+    person("Michael", "Schultz", email = "michael.schultz@northwestern.edu", role = c("ctb")),
+    person("Diego", "Gómez-Zará", email = "dgomezara@u.northwestern.edu", role = c("ctb")),
+    person("Noshir", "Contractor", email = "noshir@northwestern.edu", role = c("aut")))
+Description: An integrated set of tools to analyze relational event models. 
+Depends: R (>= 3.5.0)
+License: GPL-3 + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: abind, Matrix, stats
+RoxygenNote: 6.1.1
+URL: http://sonic.northwestern.edu
